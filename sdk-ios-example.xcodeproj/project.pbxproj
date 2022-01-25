@@ -11,7 +11,25 @@
 		31C3705F27A0A9C600C8F5D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3705E27A0A9C600C8F5D7 /* ContentView.swift */; };
 		31C3706127A0A9C700C8F5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C3706027A0A9C700C8F5D7 /* Assets.xcassets */; };
 		31C3706427A0A9C700C8F5D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C3706327A0A9C700C8F5D7 /* Preview Assets.xcassets */; };
+		31C3706D27A0B30200C8F5D7 /* Tivio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C3706B27A0B2F400C8F5D7 /* Tivio.framework */; };
+		31C3706E27A0B30200C8F5D7 /* Tivio.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31C3706B27A0B2F400C8F5D7 /* Tivio.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31C3707227A0B3D500C8F5D7 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3707027A0B3D500C8F5D7 /* PlayerView.swift */; };
+		31C3707327A0B3D500C8F5D7 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3707127A0B3D500C8F5D7 /* PlayerController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31C3706F27A0B30200C8F5D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				31C3706E27A0B30200C8F5D7 /* Tivio.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		31C3705927A0A9C600C8F5D7 /* sdk-ios-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sdk-ios-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +38,9 @@
 		31C3706027A0A9C700C8F5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31C3706327A0A9C700C8F5D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31C3706527A0A9C700C8F5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C3706B27A0B2F400C8F5D7 /* Tivio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tivio.framework; sourceTree = SOURCE_ROOT; };
+		31C3707027A0B3D500C8F5D7 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = SOURCE_ROOT; };
+		31C3707127A0B3D500C8F5D7 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C3706D27A0B30200C8F5D7 /* Tivio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +58,7 @@
 		31C3705027A0A9C600C8F5D7 = {
 			isa = PBXGroup;
 			children = (
+				31C3706B27A0B2F400C8F5D7 /* Tivio.framework */,
 				31C3705B27A0A9C600C8F5D7 /* sdk-ios-example */,
 				31C3705A27A0A9C600C8F5D7 /* Products */,
 			);
@@ -52,6 +75,8 @@
 		31C3705B27A0A9C600C8F5D7 /* sdk-ios-example */ = {
 			isa = PBXGroup;
 			children = (
+				31C3707127A0B3D500C8F5D7 /* PlayerController.swift */,
+				31C3707027A0B3D500C8F5D7 /* PlayerView.swift */,
 				31C3705C27A0A9C600C8F5D7 /* sdk_ios_exampleApp.swift */,
 				31C3705E27A0A9C600C8F5D7 /* ContentView.swift */,
 				31C3706027A0A9C700C8F5D7 /* Assets.xcassets */,
@@ -79,6 +104,7 @@
 				31C3705527A0A9C600C8F5D7 /* Sources */,
 				31C3705627A0A9C600C8F5D7 /* Frameworks */,
 				31C3705727A0A9C600C8F5D7 /* Resources */,
+				31C3706F27A0B30200C8F5D7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,7 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C3707227A0B3D500C8F5D7 /* PlayerView.swift in Sources */,
 				31C3705F27A0A9C600C8F5D7 /* ContentView.swift in Sources */,
+				31C3707327A0B3D500C8F5D7 /* PlayerController.swift in Sources */,
 				31C3705D27A0A9C600C8F5D7 /* sdk_ios_exampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +297,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"sdk-ios-example/Preview Content\"";
+				DEVELOPMENT_TEAM = D68SCG4882;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "sdk-ios-example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,7 +323,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"sdk-ios-example/Preview Content\"";
+				DEVELOPMENT_TEAM = D68SCG4882;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "sdk-ios-example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
