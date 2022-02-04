@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		orOG8UZicpyXfg7te+Y8N4KLX7U=
-		</data>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		5TRLalEwX0w5QNJDXuZWTB8XngI=
+		18pQmOKxemJrqnUfPh4twRjt5Yk=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		5XQEb7h8Jkie4eSmpVSEukiLdzk=
+		UXwXxKe6vj3KFhB0RE4ZeAf0BIw=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		vadWuHIOyUuc5R7xS1O9eeoufVU=
+		9HY42Lq4aBWdTA+5uY+IupkULkQ=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -41,17 +37,13 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Frameworks/.DS_Store</key>
-		<data>
-		VfI4STDqPdUT67LO5zgFTlDpoAo=
-		</data>
 		<key>Frameworks/OpenSSL.framework/Info.plist</key>
 		<data>
 		Jw3BhKlKMWVczndBFxVgNzN/9m8=
 		</data>
 		<key>Frameworks/OpenSSL.framework/OpenSSL</key>
 		<data>
-		8Z7/mUzOsnIK87DeXqo3yVZnzGo=
+		u7ASMeNMBP7ah2M19c3sBMcZQys=
 		</data>
 		<key>Frameworks/OpenSSL.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -67,7 +59,7 @@
 		</data>
 		<key>Frameworks/double-conversion.framework/double-conversion</key>
 		<data>
-		WRUYO3l6bekax248r065aU8AxzE=
+		W2Hw4cIPorINB2NPfc7a6PrXAIs=
 		</data>
 		<key>Headers/Tivio.h</key>
 		<data>
@@ -91,7 +83,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QJV3SJeSJIa9p7SDNiFid3YXnik=
+		PbVScy9cO9FXjNsSq31qiy+0DWc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,7 +91,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		nH8RNjrdeAPm4JmyHnzjOdOX3BM=
+		N2kTKcTo27PWp84cLHSVGg32npM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -108,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V56+VZ9/Mx6fPxyaLg2U9Qkh+9n2EjJFLL7wH25Ws+U=
+			6HmnvI2QAzWhZuSn6qR4pyjRLWUIMVvfA58KJsVElQc=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kG99nbMeUrpedliCCY12eQqh1zpvl45R1g90quiZo2M=
+			uwe/NG0DGj6+TEeikp0F9NWVLPogW1Oae3h0ybX285A=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -129,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+lsHV8MLfTvkkJi7gkV00cU9J8xMZKhZJV4nfGU9KaM=
+			2rb9v4Yp4vt32DDSl4eg40fjzDosfEMS9eqPzBVbw1s=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -166,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fMrHyq1zY7TbnkGg0JD0fgTgfB6LcCzKZ3jPFigHNbw=
+			lMdlVTDZrPdMDCoq0gheDr9m+W5wo17fhhpS7KhgJ9M=
 			</data>
 		</dict>
 		<key>Frameworks/OpenSSL.framework/_CodeSignature/CodeResources</key>
@@ -194,7 +186,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JclhVO/X3dLvEYqGjrIOLejbDXx+Hhe/5bYLkWXLSb4=
+			znBLSCpQ7VoH3mbwKhYzpUseWjjWKk0oXEvX8QWVjMY=
 			</data>
 		</dict>
 		<key>Headers/Tivio.h</key>
@@ -243,7 +235,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OU5UT+ZfMUbq6RNnvvys9Oe00csAiwurz75gyq6ziDE=
+			j6nq6qX0VGX/s2YESaLun418G2QamnJy1brHwgtcvzc=
 			</data>
 		</dict>
 	</dict>
