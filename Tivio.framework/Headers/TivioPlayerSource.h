@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
                    uri:(NSString*) uri
                epgFrom: (NSUInteger)epgFrom
                  epgTo: (NSUInteger)epgTo
+           streamStart:(NSUInteger)streamStart
      startFromPosition: (NSUInteger) startFromPosition;
 
 - (id) initWithChannel:(NSString *)channelName
@@ -27,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
                    uri:(NSString*) uri
                epgFrom: (NSUInteger)epgFrom
                  epgTo: (NSUInteger)epgTo
+           streamStart:(NSUInteger)streamStart
      continueFromPosition: (NSUInteger) continueFromPosition;
 
 @end
