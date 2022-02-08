@@ -87,10 +87,10 @@
 		31C3705B27A0A9C600C8F5D7 /* sdk-ios-example */ = {
 			isa = PBXGroup;
 			children = (
-				31C3707127A0B3D500C8F5D7 /* PlayerController.swift */,
-				31C3707027A0B3D500C8F5D7 /* PlayerView.swift */,
 				31C3705C27A0A9C600C8F5D7 /* sdk_ios_exampleApp.swift */,
 				31C3705E27A0A9C600C8F5D7 /* ContentView.swift */,
+				31C3707127A0B3D500C8F5D7 /* PlayerController.swift */,
+				31C3707027A0B3D500C8F5D7 /* PlayerView.swift */,
 				31C3706027A0A9C700C8F5D7 /* Assets.xcassets */,
 				31C3706527A0A9C700C8F5D7 /* Info.plist */,
 				31C3706227A0A9C700C8F5D7 /* Preview Content */,

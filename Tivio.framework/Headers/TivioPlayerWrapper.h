@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init NS_UNAVAILABLE;
 
+- (void) reportPlaybackEnded;
 - (void) reportTimeProgress: (NSUInteger) miliseconds;
 - (void) seekTo: (NSUInteger) miliseconds;
 - (void) setSource: (TivioPlayerSource*) source;
