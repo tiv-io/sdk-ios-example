@@ -13,9 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Tivio : NSObject
 
-- (id)initWithSecret:(NSString*) secret deviceCapabilities: (NSArray *) capabilities;
+- (id)initWithSecret:(NSString*) secret deviceCapabilities:(NSArray *) capabilities;
+- (id)initWithSecret:(NSString*) secret deviceCapabilities:(NSArray *) capabilities verbose:(BOOL)verbose;
 
 + (TivioPlayerWrapper*)getPlayerWrapper;
++ (void)getProgramTimestamps:(NSString *)channelName epgFrom: (NSUInteger)epgFrom epgTo: (NSUInteger)epgTo complete: (void(^)(NSInteger startTimestamp, NSInteger endTimestamp)) complete;
 
 @end
 

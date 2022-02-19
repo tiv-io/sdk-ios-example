@@ -11,7 +11,7 @@ import Tivio
 @main
 struct sdk_ios_exampleApp: App {
     
-    var tivio = Tivio(secret: "xxxxx", deviceCapabilities: [])
+    var tivio = Tivio(secret: "xxxxx", deviceCapabilities: [], verbose: true)
 
     var body: some Scene {
         WindowGroup {

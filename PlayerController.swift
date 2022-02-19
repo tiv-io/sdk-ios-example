@@ -25,6 +25,12 @@ class PlayerController: TivioPlayerWrapperDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(playerDidFinishPlay), name: .AVPlayerItemDidPlayToEndTime, object: nil)
     }
     
+    @objc func playerDidFinishPlay() {
+        self.player.replaceCurrentItem(with: nil)
+        
+        self.playerWrapper.reportPlaybackEnded()
+    }
+    
     func seek(to miliseconds: UInt) {
         self.player.seek(to: CMTimeMake(value: Int64(miliseconds), timescale: 1000))
     }
@@ -35,10 +41,12 @@ class PlayerController: TivioPlayerWrapperDelegate {
         self.player.play()
     }
     
-    @objc func playerDidFinishPlay() {
-        self.player.replaceCurrentItem(with: nil)
-        
-        self.playerWrapper.reportPlaybackEnded()
+    func onAdMetadata(_ adMetadata: TivioAdMetadata!) {
+        print("AdMetadata:", adMetadata!)
+    }
+    
+    func onMarkers(_ markers: [TivioMarker]!) {
+        print("Markers count:", markers.count)
     }
     
 }

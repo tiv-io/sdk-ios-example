@@ -63,11 +63,19 @@
 		</data>
 		<key>Headers/Tivio.h</key>
 		<data>
-		e7g2xGRa37woUTF4njpPmz2S7Vk=
+		pXrVV/4WT7MYiHbMtBfPRMy3HdU=
+		</data>
+		<key>Headers/TivioAdMetadata.h</key>
+		<data>
+		Gty5Wa91/pHomaa1vRcwa0Kq7dU=
 		</data>
 		<key>Headers/TivioManager.h</key>
 		<data>
-		SmgpDlyoQrSOj2pY6FrIAp/t4/U=
+		q3myJ43NTLnnTEE3UPXmbyYQueQ=
+		</data>
+		<key>Headers/TivioMarker.h</key>
+		<data>
+		55c+Otsw8AzEsLCbVCP/sAgzznE=
 		</data>
 		<key>Headers/TivioPlayerSource.h</key>
 		<data>
@@ -75,11 +83,11 @@
 		</data>
 		<key>Headers/TivioPlayerWrapper.h</key>
 		<data>
-		7xQh6aVWvV6X3WZZGs1qJ1gj5AI=
+		2PvEaMoKDPRJ5A5HnTSCtPUj12U=
 		</data>
 		<key>Headers/TivioPlayerWrapperDelegate.h</key>
 		<data>
-		Pz69oiJFcKj/CzorKebgvvrO97U=
+		QDoQGWD3kw0Swi3iT5Ha4jqNRAs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -91,7 +99,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		gePOT+y/38nhjD35TNoWRKxKWPU=
+		FlUV+jtZzQJwwP+BXzQFOv87rBA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -193,14 +201,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iEIzDuv+CPxe7ugVVVVC+G1LavY2u7QxN15T0SImCQw=
+			7WnYVMbOME4ncevLp0bLmOWJHv0/6chDpqi9QIr2QHw=
+			</data>
+		</dict>
+		<key>Headers/TivioAdMetadata.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qNkvgHSriTPHHwbIYXCzG4/x+RVxEsIa76Mio0EBYJ8=
 			</data>
 		</dict>
 		<key>Headers/TivioManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zlVv7arh7w5TIRWcNn7CDGZaTyCsmyy73yYv6VwKhnM=
+			APgUmu0TZOVV3IoZOov76EEcgV6g2rdEwzBS+bL8FTQ=
+			</data>
+		</dict>
+		<key>Headers/TivioMarker.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RIMx+YnSUpjsplR3xQYl3VYkafOiRfjHKts2gG0tuVc=
 			</data>
 		</dict>
 		<key>Headers/TivioPlayerSource.h</key>
@@ -214,14 +236,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1bBU1+52dP6ODEsQX8JYor0YaUIHzd0qKX7eQFzQW2A=
+			D/Neg4D9+6QqafWYJWbRP2LeQtIqyo1KBBZX+WqfsGI=
 			</data>
 		</dict>
 		<key>Headers/TivioPlayerWrapperDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sN5IHf1XFkHBsrIt7T5ykLR1vTuSJC4UhHizL5swxGQ=
+			oKfVYF8hMH736C9UaSWL7r51f2OnC5XiyRK9NY20Brk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -235,7 +257,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aD+QcO9TohRGUspoZ8mIfetGtJKf/iyEeJZY24MqFII=
+			5BiwREI2ELceaQw25IJ98a/3OLKEWZDVduEGCNg8Gvk=
 			</data>
 		</dict>
 	</dict>
