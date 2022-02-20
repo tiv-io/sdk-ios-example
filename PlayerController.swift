@@ -19,7 +19,7 @@ class PlayerController: TivioPlayerWrapperDelegate {
         self.playerWrapper.delegate = self
         
         self.player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.5, preferredTimescale: CMTimeScale(NSEC_PER_SEC)), queue: .main) { [weak self] time in
-            self?.playerWrapper.reportTimeProgress(UInt(time.value))
+            self?.playerWrapper.reportTimeProgress(UInt(time.value)/1000000)
         }
         
         NotificationCenter.default.addObserver(self, selector: #selector(playerDidFinishPlay), name: .AVPlayerItemDidPlayToEndTime, object: nil)
